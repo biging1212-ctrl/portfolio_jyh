@@ -41,14 +41,13 @@
 })();
 
 // ── Config ──
-const TOTAL_PAGES = 75; // page-02 ~ page-76
+const TOTAL_PAGES = 53; // page-02 ~ page-54
 const STORAGE_KEY = 'portfolio_slots';
 
 // 영상 파일이 있는 페이지만 여기에 적기
 const VIDEO_PAGES = new Set([
-  5, 7, 12, 13, 14, 16, 19, 20, 22, 24,
-  31, 32, 33, 36, 38, 42, 46, 48, 52, 54,
-  59, 61, 65, 67, 70, 73, 74, 76
+  6, 7, 11, 13, 17, 19, 31, 33, 37,
+  39, 41, 44, 47, 48, 51, 53
 ]);
 
 
