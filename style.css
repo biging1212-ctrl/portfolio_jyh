@@ -231,7 +231,7 @@ top: calc(18.519vh - 100px);    /* Figma Y: 200 / 1080 */
   flex-direction: column;
   align-items: flex-start;
   font-family: var(--font);
-  color: #000000;
+  color: #F6F2F2;
 }
 
 .hero-line {
@@ -239,7 +239,7 @@ top: calc(18.519vh - 100px);    /* Figma Y: 200 / 1080 */
   font-size: clamp(72px, 8.333vw, 160px);
   line-height: 1.05;
   letter-spacing: 0.01em;
-  color: #000000;
+  color: #F6F2F2;
   white-space: nowrap;
 }
 
@@ -262,7 +262,7 @@ top: calc(18.519vh - 100px);    /* Figma Y: 200 / 1080 */
   font-size: inherit;
   font-weight: 700;
   line-height: inherit;
-  color: #000000;
+  color: #F6F2F2;
   animation: blink 0.8s step-end infinite;
 }
 
@@ -416,7 +416,7 @@ top: calc(18.519vh - 100px);    /* Figma Y: 200 / 1080 */
   font-family: var(--font);
 }
 
-/* ── Page 46: Closing ── */
+/* ── Page 54: Closing ── */
 /*
   Figma 1920×1080 기준
   vw = px ÷ 1920 × 100
@@ -473,66 +473,6 @@ top: calc(18.519vh - 100px);    /* Figma Y: 200 / 1080 */
   line-height: 1.3;
   color: #000000;
 }
-
-/* ── Download Section ── */
-.download-section {
-  background: #F8F6F6;
-  color: var(--black);
-  width: 100%;
-  padding: 80px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.download-inner {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: clamp(16px, 2vw, 36px);
-}
-
-.download-label {
-  font-size: clamp(9px, 0.625vw, 12px);
-  font-weight: 500;
-  letter-spacing: 0.25em;
-  opacity: 0.4;
-  text-transform: uppercase;
-}
-
-.download-title {
-  font-size: clamp(24px, 3.125vw, 60px);
-  font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
-}
-
-.download-desc {
-  font-size: clamp(10px, 0.729vw, 14px);
-  opacity: 0.5;
-  line-height: 1.6;
-}
-
-.download-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  font-size: clamp(10px, 0.625vw, 12px);
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  border: 1.5px solid var(--black);
-  padding: clamp(12px, 1.25vw, 24px) clamp(24px, 2.5vw, 48px);
-  transition: background 0.2s, color 0.2s;
-}
-
-.download-btn:hover {
-  background: var(--black);
-  color: var(--white);
-}
-
-.download-btn svg { flex-shrink: 0; }
 
 /* ── Footer ── */
 .footer {
