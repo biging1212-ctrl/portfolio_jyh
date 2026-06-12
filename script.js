@@ -41,7 +41,7 @@
 })();
 
 // ── Config ──
-const TOTAL_PAGES = 53; // page-02 ~ page-53
+const TOTAL_PAGES = 52; // page-02 ~ page-53
 const STORAGE_KEY = 'portfolio_slots';
 
 // 영상 파일이 있는 페이지만 여기에 적기
@@ -81,7 +81,7 @@ for (let i = 1; i <= TOTAL_PAGES; i++) {
 
   const numBadge = document.createElement('span');
   numBadge.className = 'slot-num';
-  numBadge.textContent = `${padded} / 77`;
+  numBadge.textContent = `${padded} / 54`;
   slot.appendChild(numBadge);
 
   const zone = document.createElement('div');
