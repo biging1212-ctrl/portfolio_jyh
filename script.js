@@ -154,7 +154,7 @@ function handleFile(slot, zone, file, index) {
   reader.readAsDataURL(file);
 }
 
-// ── 영상 미리 로딩: 화면에 나타나기 약 2페이지 전 ──
+// ── 영상 미리 로딩: 화면에 나타나기 약 8페이지 전 ──
 const videoObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
