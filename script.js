@@ -154,29 +154,6 @@ function handleFile(slot, zone, file, index) {
   reader.readAsDataURL(file);
 }
 
-// ── 영상 미리 로딩: 화면에 나타나기 약 8페이지 전 ──
-const videoObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      const video = entry.target;
-
-      if (entry.isIntersecting) {
-        if (!video.src) {
-          video.src = video.dataset.src;
-          video.load();
-        }
-
-        video.play().catch(() => {});
-      } else {
-        video.pause();
-      }
-    });
-  },
-  {
-    rootMargin: '800% 0px',
-    threshold: 0.01
-  }
-);
 
 // ── Render image or video inside slot ──
 function renderMedia(slot, zone, type, src) {
