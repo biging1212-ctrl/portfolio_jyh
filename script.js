@@ -173,7 +173,7 @@ const videoObserver = new IntersectionObserver(
     });
   },
   {
-    rootMargin: '200% 0px',
+    rootMargin: '800% 0px',
     threshold: 0.01
   }
 );
