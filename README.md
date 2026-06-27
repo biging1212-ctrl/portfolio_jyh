@@ -1,2 +1,2 @@
 # portfolio_jyh
-brand / marketing/ food
+brand / marketing/ food / bgf 리테일
