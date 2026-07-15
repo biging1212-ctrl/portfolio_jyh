@@ -53,8 +53,8 @@
 })();
 
 // ── Config ──
-const TOTAL_PAGES = 62; // pages 2–63 (page 64 = closing HTML)
-const FINAL_PAGE_TOTAL = 64;
+const TOTAL_PAGES = 63; // pages 2–64 (page 65 = closing HTML)
+const FINAL_PAGE_TOTAL = 65;
 const STORAGE_KEY = 'portfolio_slots';
 
 // ── Load saved slots from localStorage ──
@@ -72,12 +72,12 @@ const section = document.getElementById('portfolio');
 const saved   = loadSaved();
 
 for (let i = 1; i <= TOTAL_PAGES; i++) {
-  const pageNum = i + 1; // pages 2–63
+  const pageNum = i + 1; // pages 2–64
   const slot    = document.createElement('div');
   slot.className   = 'portfolio-slot';
   slot.dataset.index = i;
 
-  // 모든 페이지에 이동용 id 부여: page-02, page-03, page-16 ...
+  // 모든 페이지에 이동용 id 부여: page-02, page-03, page-21 ...
 slot.id = `page-${String(pageNum).padStart(2, '0')}`;
 
   // page number badge
@@ -102,14 +102,9 @@ if (pageNum === 2) {
   continue;
 }
   
-// ── PAGE 09: YouTube Video ──
-if (pageNum === 09) {
+// ── PAGE 17: YouTube Video ──
+if (pageNum === 17) {
   slot.classList.add('youtube-page');
-
-  const youtubeTitle = document.createElement('div');
-  youtubeTitle.className = 'youtube-title';
-  youtubeTitle.textContent = 'PROMOTION VIDEOS';
-  slot.appendChild(youtubeTitle);
 
   const videoWrap = document.createElement('div');
   videoWrap.className = 'youtube-video-wrap';
@@ -275,8 +270,8 @@ function renderMedia(slot, zone, type, src) {
     
   slot.appendChild(vid);
   
-  // page-52에만 사운드 버튼 추가
-  if (pageNum === 52) {
+  // page-34에만 사운드 버튼 추가
+  if (pageNum === 34) {
     const soundBtn = document.createElement('button');
     soundBtn.className = 'sound-toggle-btn';
     soundBtn.type = 'button';
@@ -440,28 +435,28 @@ function addProjectIndex(slot) {
     },
     {
       num: '02',
-      title: 'IM 뱅크',
-      desc: 'Character / Content',
+      title: 'BINGGRAE',
+      desc: 'Pop-up store / Character / Content',
       image: 'assets/images/project-02.png',
-      target: '#page-16',
+      target: '#page-21',
       imgX: 542,
       textX: 542
     },
     {
       num: '03',
-      title: '푸본현대생명',
-      desc: 'Character / Content',
+      title: 'ORION',
+      desc: 'Sns Content',
       image: 'assets/images/project-03.png',
-      target: '#page-30',
+      target: '#page-35',
       imgX: 864,
       textX: 864
     },
     {
       num: '04',
-      title: 'BINGGRAE',
-      desc: 'Pop-up store / Character / Content',
+      title: 'KIMCHI SAUCE',
+      desc: 'Product /  Retail',
       image: 'assets/images/project-04.png',
-      target: '#page-39',
+      target: '#page-42',
       imgX: 1186,
       textX: 1186
     },
@@ -470,7 +465,7 @@ function addProjectIndex(slot) {
       title: '삼쩜삼',
       desc: 'Pop-up store',
       image: 'assets/images/project-05.png',
-      target: '#page-53',
+      target: '#page-54',
       imgX: 1508,
       textX: 1508
     }
