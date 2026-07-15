@@ -408,32 +408,19 @@ img, video { display: block; width: 100%; }
   font-family: var(--font);
 }
 
-/* ── Page 09: YouTube Video ── */
+/* ── Page 17: YouTube Video ── */
 .youtube-page {
   position: relative;
-  background: linear-gradient(180deg, #FFDAE6 0%, #FFF9FB 100%);
-}
-
-.youtube-title {
-  position: absolute;
-  left: 10.4167%;   /* x: 200 / 1920 */
-  top: 9.2593%;     /* y: 100 / 1080 */
-  font-family: 'Pretendard', sans-serif;
-  font-size: 20px;
-  font-weight: 600; /* SemiBold */
-  letter-spacing: -0.02em; /* -2% */
-  line-height: 1;
-  color: #1D1D1D;
-  z-index: 5;
+  background: #FF7B23;
 }
 
 .youtube-video-wrap {
   position: absolute;
-  top: 194px;
+  top: 5px;
   left: 50%;
   transform: translateX(-50%);
-  width: 72.9166667%;
-  aspect-ratio: 1400 / 787;
+  width: 70.7291667%;
+  aspect-ratio: 1358 / 764;
   background: #000000;
   overflow: hidden;
   line-height: 0;
@@ -446,7 +433,8 @@ img, video { display: block; width: 100%; }
   border: 0;
 }
 
-/* ── Page 64: Closing ── */
+
+/* ── Page 65: Closing ── */
 /*
   Figma 1920×1080 기준
   vw = px ÷ 1920 × 100
