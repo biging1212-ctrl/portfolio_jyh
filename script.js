@@ -57,6 +57,14 @@ const TOTAL_PAGES = 63; // pages 2–64 (page 65 = closing HTML)
 const FINAL_PAGE_TOTAL = 65;
 const STORAGE_KEY = 'portfolio_slots';
 
+const VIDEO_PAGES = new Set([
+  4, 9, 19, 22, 25, 26, 28,
+  30, 32, 33, 34,
+  37, 38, 39, 43,
+  45, 49, 51, 56,
+  58, 62, 64
+]);
+
 // ── Load saved slots from localStorage ──
 function loadSaved() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
@@ -257,11 +265,11 @@ function renderMedia(slot, zone, type, src) {
   slot.querySelectorAll('img, video').forEach((el) => el.remove());
   zone.classList.add('hidden');
 
-  if (type === 'video') {
+  if (type === video') {
   const vid = document.createElement('video');
-  const pageNum = Number(slot.dataset.index) + 1;
 
   vid.src = src;
+  vid.preload = 'auto';
   vid.autoplay = true;
   vid.loop = true;
   vid.playsInline = true;
