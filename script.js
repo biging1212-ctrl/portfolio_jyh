@@ -278,7 +278,8 @@ function renderMedia(slot, zone, type, src) {
   vid.controls = false;
     
   slot.appendChild(vid);
-  
+}
+
   // page-34에만 사운드 버튼 추가
   if (pageNum === 34) {
     const soundBtn = document.createElement('button');
