@@ -265,9 +265,10 @@ function renderMedia(slot, zone, type, src) {
   slot.querySelectorAll('img, video').forEach((el) => el.remove());
   zone.classList.add('hidden');
 
-  if (type === video') {
-  const vid = document.createElement('video');
   const pageNum = Number(slot.dataset.index) + 1;
+
+  if (type === 'video') {
+  const vid = document.createElement('video');
 
   vid.src = src;
   vid.preload = 'auto';
@@ -278,7 +279,6 @@ function renderMedia(slot, zone, type, src) {
   vid.controls = false;
     
   slot.appendChild(vid);
-}
 
   // page-34에만 사운드 버튼 추가
   if (pageNum === 34) {
@@ -292,13 +292,15 @@ function renderMedia(slot, zone, type, src) {
       e.stopPropagation();
 
       vid.muted = !vid.muted;
-      soundBtn.textContent = vid.muted ? 'SOUND OFF' : 'SOUND ON';
+      soundBtn.textContent = vid.muted
+          ? 'SOUND OFF'
+          : 'SOUND ON';
+
       soundBtn.classList.toggle('is-on', !vid.muted);
     });
       
   slot.appendChild(soundBtn);
-  }
-    
+  }    
   } else {
   const img = document.createElement('img');
 
@@ -321,8 +323,7 @@ function renderMedia(slot, zone, type, src) {
   }
 
   slot.appendChild(img);
-}
-
+  }
 }
 
 // ── Custom Cursor + Magnifier ──
