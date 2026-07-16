@@ -267,6 +267,7 @@ function renderMedia(slot, zone, type, src) {
 
   if (type === video') {
   const vid = document.createElement('video');
+  const pageNum = Number(slot.dataset.index) + 1;
 
   vid.src = src;
   vid.preload = 'auto';
