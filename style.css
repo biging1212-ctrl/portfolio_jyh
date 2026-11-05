@@ -1626,23 +1626,6 @@ img, video { display: block; width: 100%; }
 
 }
 
-/* ── BINGGRAE 대표 이미지만 200 × 226 ── */
-
-.portfolio-slot
-.page02-project-preview.page02-preview-binggrae {
-
-  width:
-    min(200px, 10.416667cqw)
-    !important;
-
-  height:
-    min(226px, 11.770833cqw)
-    !important;
-
-  object-fit:
-    contain !important;
-}
-
 /* ─────────────────────────────
    PAGE 06 : KIMCHI SAUCE MOTION
 ───────────────────────────── */
