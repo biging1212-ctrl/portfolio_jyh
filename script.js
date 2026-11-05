@@ -77,8 +77,8 @@
 })();
 
 // ── Config ──
-const TOTAL_PAGES = 71; // pages 2–72 (page 79 = closing HTML)
-const FINAL_PAGE_TOTAL = 73;
+const TOTAL_PAGES = 70; // pages 2–69 (page 70 = closing HTML)
+const FINAL_PAGE_TOTAL = 71;
 const STORAGE_KEY = 'portfolio_slots';
 
 const VIDEO_PAGES = new Set([
@@ -246,13 +246,13 @@ const PAGE_SECTION_META = {
   54: {
     title: 'GOODS DESIGN',
     body: '한 해를 돌아보고 기록할 수 있도록, 다이어리 스티커·질문 미니북·포토부스 프레임·현장 참여물 등 기록 중심의 굿즈를 제작 했습니다. 키비주얼 그래픽과 컬러 무드를 활용하여 따뜻한 분위기와 참여 경험이 함께 전달되도록 디자인했습니다.',
-    theme: 'dark'
+    theme: 'light'
   },  
   
   55: {
   title: 'EVENT STILL',
   body: '팝업 현장에서 방문객이 마주하는 팜플렛, 사인물, 포토부스 프레임 등 다양한 현장 그래픽을 제작했습니다. 소원왕국의 컬러와 캐릭터 모티프를 일관되게 적용해 브랜드 세계관을 유지하면서, 이벤트 참여와 굿즈 정보가 직관적으로 전달되도록 구성했습니다.',
-  theme: 'dark'
+  theme: 'light'
   },
   
   57: {
