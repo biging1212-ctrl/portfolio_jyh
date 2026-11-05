@@ -548,10 +548,10 @@ img, video { display: block; width: 100%; }
 
 
 /* ─────────────────────────────
-   PAGE 14 : RANDOM PHOTO COLLAGE
+   PAGE 38 : RANDOM PHOTO COLLAGE
 ───────────────────────────── */
 
-.page14-collage-page {
+.page38-collage-page {
   position: relative;
 
   background: #000000;
@@ -560,7 +560,7 @@ img, video { display: block; width: 100%; }
 }
 
 
-.page14-collage {
+.page38-collage {
   position: absolute;
 
   inset: 0;
@@ -576,7 +576,7 @@ img, video { display: block; width: 100%; }
 
 /* ── PHOTO COMMON ── */
 
-.portfolio-slot .page14-photo {
+.portfolio-slot .page38-photo {
   position: absolute;
 
   display: block;
@@ -600,7 +600,7 @@ img, video { display: block; width: 100%; }
 
 /* 등장 */
 
-.portfolio-slot .page14-photo.is-visible {
+.portfolio-slot .page38-photo.is-visible {
   opacity: 1;
 
   transform:
@@ -609,7 +609,7 @@ img, video { display: block; width: 100%; }
 
 /* ── 01 : 좌측 상단 ── */
 
-.page14-photo.photo-01 {
+.page38-photo.photo-01 {
   left: 0;
   top: 0;
 
@@ -620,7 +620,7 @@ img, video { display: block; width: 100%; }
 
 /* ── 02 : 상단 중앙 왼쪽 ── */
 
-.page14-photo.photo-02 {
+.page38-photo.photo-02 {
   left: 21.5%;
   top: 0;
 
@@ -631,7 +631,7 @@ img, video { display: block; width: 100%; }
 
 /* ── 03 : 상단 중앙 오른쪽 ── */
 
-.page14-photo.photo-03 {
+.page38-photo.photo-03 {
   left: 42%;
   top: 0;
 
@@ -642,7 +642,7 @@ img, video { display: block; width: 100%; }
 
 /* ── 04 : 우측 상단 ── */
 
-.page14-photo.photo-04 {
+.page38-photo.photo-04 {
   right: 0;
   top: 0;
 
@@ -653,7 +653,7 @@ img, video { display: block; width: 100%; }
 
 /* ── 05 : 좌측 하단 ── */
 
-.page14-photo.photo-05 {
+.page38-photo.photo-05 {
   left: 0;
   bottom: 0;
 
@@ -664,7 +664,7 @@ img, video { display: block; width: 100%; }
 
 /* ── 06 : 중앙 하단 ── */
 
-.page14-photo.photo-06 {
+.page38-photo.photo-06 {
   left: 21.5%;
   bottom: 0;
 
@@ -675,7 +675,7 @@ img, video { display: block; width: 100%; }
 
 /* ── 07 : 우측 하단 ── */
 
-.page14-photo.photo-07 {
+.page38-photo.photo-07 {
   right: 0;
   bottom: 0;
 
@@ -684,15 +684,15 @@ img, video { display: block; width: 100%; }
 }
 
 
-/* ── PAGE 17 : 4 IMAGE SLIDESHOW ── */
+/* ── PAGE 42 : 4 IMAGE SLIDESHOW ── */
 
-.page17-slideshow-page {
+.page42-slideshow-page {
   position: relative;
   background: #000000;
 }
 
 
-.page17-slideshow {
+.page42-slideshow {
   position: absolute;
   inset: 0;
 
@@ -705,7 +705,7 @@ img, video { display: block; width: 100%; }
 
 /* 모든 슬라이드 */
 
-.portfolio-slot .page17-slide {
+.portfolio-slot .page42-slide {
   position: absolute;
 
   inset: 0;
@@ -730,20 +730,20 @@ img, video { display: block; width: 100%; }
 
 /* 현재 표시되는 슬라이드 */
 
-.portfolio-slot .page17-slide.is-active {
+.portfolio-slot .page42-slide.is-active {
   opacity: 1;
 
   z-index: 2;
 }
 
-/* ── PAGE 12 : 2 IMAGE SLIDESHOW ── */
+/* ── PAGE 36 : 2 IMAGE SLIDESHOW ── */
 
-.page12-slideshow-page {
+.page36-slideshow-page {
   position: relative;
   background: #000000;
 }
 
-.page12-slideshow {
+.page36-slideshow {
   position: absolute;
   inset: 0;
 
@@ -771,7 +771,7 @@ img, video { display: block; width: 100%; }
   display: block;
 }
 
-.portfolio-slot .page12-slide.is-active {
+.portfolio-slot .page36-slide.is-active {
   opacity: 1;
 }
 
