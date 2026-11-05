@@ -1630,7 +1630,7 @@ img, video { display: block; width: 100%; }
    PAGE 06 : KIMCHI SAUCE MOTION
 ───────────────────────────── */
 
-.page06-motion-page {
+.page30-motion-page {
   position: relative;
   background: #000000;
   overflow: hidden;
@@ -1638,7 +1638,7 @@ img, video { display: block; width: 100%; }
 
 
 /* 1920×1080 레이어 전체를 그대로 겹침 */
-.page06-stack {
+.page30-stack {
   position: absolute;
 
   inset: 0;
@@ -1651,7 +1651,7 @@ img, video { display: block; width: 100%; }
 
 
 /* 공통 */
-.portfolio-slot .page06-layer {
+.portfolio-slot .page30-layer {
   position: absolute;
 
   inset: 0;
@@ -1671,21 +1671,21 @@ img, video { display: block; width: 100%; }
 
 /* ── 레이어 순서 ── */
 
-.portfolio-slot .page06-bg {
+.portfolio-slot .page30-bg {
   z-index: 1;
 }
 
-.portfolio-slot .page06-logo {
+.portfolio-slot .page30-logo {
   z-index: 2;
 }
 
-.portfolio-slot .page06-object {
+.portfolio-slot .page30-object {
   z-index: 3;
 }
 
 /* ── LOGO INITIAL STATE ── */
 
-.portfolio-slot .page06-logo {
+.portfolio-slot .page30-logo {
   transform: scale(2);
 
   transform-origin: 50% 50%;
