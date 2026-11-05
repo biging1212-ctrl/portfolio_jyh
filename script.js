@@ -82,7 +82,7 @@ const FINAL_PAGE_TOTAL = 70;
 const STORAGE_KEY = 'portfolio_slots';
 
 const VIDEO_PAGES = new Set([
-  4, 18, 25, 39, 45, 46, 47,
+  4, 18, 25, 45, 46, 47,
   51, 53, 61, 68, 69
 ]);
 
