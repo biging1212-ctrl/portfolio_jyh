@@ -872,19 +872,19 @@ if (pageNum === 38) {
 }
 
   
-  // ── PAGE 41: 4 IMAGE SLIDESHOW ──
-if (pageNum === 41) {
+  // ── PAGE 42: 4 IMAGE SLIDESHOW ──
+if (pageNum === 42) {
 
-  slot.classList.add('page41-slideshow-page');
+  slot.classList.add('page42-slideshow-page');
 
   const slideshow = document.createElement('div');
-  slideshow.className = 'page41-slideshow';
+  slideshow.className = 'page42-slideshow';
 
   const slideImages = [
-    'assets/images/page-41-01.png',
-    'assets/images/page-41-02.png',
-    'assets/images/page-41-03.png',
-    'assets/images/page-41-04.png'
+    'assets/images/page-42-01.png',
+    'assets/images/page-42-02.png',
+    'assets/images/page-42-03.png',
+    'assets/images/page-42-04.png'
   ];
 
 
@@ -897,7 +897,7 @@ if (pageNum === 41) {
 
     img.src = src;
     img.alt = '';
-    img.className = 'page41-slide';
+    img.className = 'page42-slide';
 
     /* 미리 로딩 */
     img.loading = 'eager';
