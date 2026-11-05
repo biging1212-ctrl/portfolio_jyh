@@ -496,17 +496,17 @@ img, video { display: block; width: 100%; }
 }
 
 /* ─────────────────────────────
-   PAGE 10 : 4 IMAGE INSTANT SWITCH
+   PAGE 34 : 4 IMAGE INSTANT SWITCH
 ───────────────────────────── */
 
-.page10-switch-page {
+.page34-switch-page {
   position: relative;
 
   background: #000000;
 }
 
 
-.page10-switch {
+.page34-switch {
   position: absolute;
 
   inset: 0;
@@ -520,7 +520,7 @@ img, video { display: block; width: 100%; }
 
 /* 모든 이미지 */
 
-.portfolio-slot .page10-slide {
+.portfolio-slot .page34-slide {
   position: absolute;
 
   inset: 0;
@@ -540,7 +540,7 @@ img, video { display: block; width: 100%; }
 
 /* 현재 이미지 */
 
-.portfolio-slot .page10-slide.is-active {
+.portfolio-slot .page34-slide.is-active {
   display: block;
 
   opacity: 1 !important;
@@ -753,7 +753,7 @@ img, video { display: block; width: 100%; }
   overflow: hidden;
 }
 
-.portfolio-slot .page12-slide {
+.portfolio-slot .page36-slide {
   position: absolute;
 
   top: 0;
@@ -1696,16 +1696,16 @@ img, video { display: block; width: 100%; }
 
 /* ── PAGE ENTER ── */
 
-.page06-motion-page.is-active .page06-logo {
+.page30-motion-page.is-active .page30-logo {
 
   animation:
-    page06LogoScale
+    page30LogoScale
       850ms
       cubic-bezier(.59, 0, .08, 1)
       80ms
       forwards,
 
-    page06LogoOpacity
+    page30LogoOpacity
       900ms
       cubic-bezier(.3, 0, .45, .65)
       100ms
@@ -1715,7 +1715,7 @@ img, video { display: block; width: 100%; }
 
 /* SCALE : 200% → 100% */
 
-@keyframes page06LogoScale {
+@keyframes page30LogoScale {
 
   from {
     transform: scale(2);
@@ -1730,7 +1730,7 @@ img, video { display: block; width: 100%; }
 
 /* OPACITY : 0 → 100% */
 
-@keyframes page06LogoOpacity {
+@keyframes page30LogoOpacity {
 
   from {
     opacity: 0;
