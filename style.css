@@ -1741,3 +1741,22 @@ img, video { display: block; width: 100%; }
   }
 
 }
+
+/* ── PAGE 55 : EVENT STILL TITLE POSITION ── */
+
+#page-55 .page-section-title {
+  top: 30.5729cqw;
+}
+
+/* ── PAGE 50–57 : TITLE COLOR ── */
+
+#page-50 .page-section-title,
+#page-51 .page-section-title,
+#page-52 .page-section-title,
+#page-53 .page-section-title,
+#page-54 .page-section-title,
+#page-55 .page-section-title,
+#page-56 .page-section-title,
+#page-57 .page-section-title {
+  color: #0369F1;
+}
