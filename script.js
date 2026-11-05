@@ -1164,13 +1164,8 @@ function renderMedia(slot, zone, type, src) {
   const vid = document.createElement('video');
 
   vid.src = src;
-
-  // 04페이지 영상만 우선 로딩
-  vid.preload = pageNum === 4 ? 'auto' : 'none';
-
-  // 04페이지 영상은 즉시 자동재생
-  vid.autoplay = pageNum === 4;
-
+  vid.preload = 'auto';
+  vid.autoplay = true;
   vid.loop = true;
   vid.playsInline = true;
   vid.muted = true;
