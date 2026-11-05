@@ -596,7 +596,7 @@ if (pageNum === 30) {
 }
 
   // ── PAGE 34: 4 IMAGE INSTANT SWITCH ──
-if (pageNum === ) {34
+if (pageNum === 34) {
 
   slot.classList.add('page34-switch-page');
 
